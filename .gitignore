@@ -1,0 +1,39 @@
+# PowerShell / Pester
+*.psd1.user
+*.ps1xml
+TestResults/
+coverage.xml
+
+# Visual Studio Code / IDE
+.vscode/
+.vs/
+.idea/
+*.code-workspace
+
+# Local report output and sensitive exports
+TenantReports/
+Reports/
+Photos/
+*.csv
+*.xlsx
+*.xls
+*.log
+*.transcript.txt
+
+# Credentials, tokens, certificates, and local configuration
+.env
+.env.*
+*.secret
+*.token
+*.pfx
+*.p12
+*.cer
+*.pem
+secrets/
+local.settings.json
+appsettings.local.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
